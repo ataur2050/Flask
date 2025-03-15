@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/ataur2050/Flask.git
     targetRevision: HEAD
+    path: .
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
